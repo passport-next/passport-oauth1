@@ -1,9 +1,10 @@
 # passport-oauth1
 
-[![Build](https://img.shields.io/travis/jaredhanson/passport-oauth1.svg)](https://travis-ci.org/jaredhanson/passport-oauth1)
-[![Coverage](https://img.shields.io/coveralls/jaredhanson/passport-oauth1.svg)](https://coveralls.io/r/jaredhanson/passport-oauth1)
-[![Quality](https://img.shields.io/codeclimate/github/jaredhanson/passport-oauth1.svg?label=quality)](https://codeclimate.com/github/jaredhanson/passport-oauth1)
-[![Dependencies](https://img.shields.io/david/jaredhanson/passport-oauth1.svg)](https://david-dm.org/jaredhanson/passport-oauth1)
+[![Build Status](https://travis-ci.org/passport-next/passport-oauth1.svg?branch=master)](https://travis-ci.org/passport-next/passport-oauth1)
+[![Coverage Status](https://coveralls.io/repos/github/passport-next/passport-oauth1/badge.svg?branch=master)](https://coveralls.io/github/passport-next/passport-oauth1?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d85da13ecfc1e1b31f38/maintainability)](https://codeclimate.com/github/passport-next/passport-oauth1/maintainability)
+[![Dependencies](https://david-dm.org/passport-next/passport-oauth1.png)](https://david-dm.org/passport-next/passport-oauth1)
+<!--[![SAST](https://gitlab.com/passport-next/passport-oauth1/badges/master/build.svg)](https://gitlab.com/passport-next/passport-oauth1/badges/master/build.svg)-->
 
 
 General-purpose OAuth 1.0 authentication strategy for [Passport](http://passportjs.org/).
@@ -27,7 +28,7 @@ list so other people can find it.
 
 ## Install
 
-    $ npm install passport-oauth1
+    $ npm install @passport-next/passport-oauth1
 
 ## Usage
 
@@ -73,12 +74,6 @@ application:
         res.redirect('/');
       });
 
-## Related Modules
-
-- [passport-oauth2](https://github.com/jaredhanson/passport-oauth2) — OAuth 2.0 authentication strategy
-- [passport-http-oauth](https://github.com/jaredhanson/passport-http-oauth) — OAuth authentication strategy for APIs
-- [oauthorize](https://github.com/jaredhanson/oauthorize) — OAuth service provider toolkit
-
 ## Contributing
 
 #### Tests
@@ -101,24 +96,3 @@ executing:
 $ make test-cov
 $ make view-cov
 ```
-
-## Support
-
-#### Funding
-
-This software is provided to you as open source, free of charge.  The time and
-effort to develop and maintain this project is dedicated by [@jaredhanson](https://github.com/jaredhanson).
-If you (or your employer) benefit from this project, please consider a financial
-contribution.  Your contribution helps continue the efforts that produce this
-and other open source software.
-
-Funds are accepted via [PayPal](https://paypal.me/jaredhanson), [Venmo](https://venmo.com/jaredhanson),
-and [other](http://jaredhanson.net/pay) methods.  Any amount is appreciated.
-
-## License
-
-[The MIT License](http://opensource.org/licenses/MIT)
-
-Copyright (c) 2011-2016 Jared Hanson <[http://jaredhanson.net/](http://jaredhanson.net/)>
-
-<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-oauth1'>  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/vK9dyjRnnWsMzzJTQ57fRJpH/jaredhanson/passport-oauth1.svg' /></a>
