@@ -71,13 +71,13 @@ describe('OAuthStrategy subclass', function() {
       });
 
       it('should supply user', function() {
-        expect(user).to.be.an.object;
+        expect(user).to.be.an('object');
         expect(user.id).to.equal('1234');
         expect(user.username).to.equal('jaredhanson');
       });
 
       it('should supply info', function() {
-        expect(info).to.be.an.object;
+        expect(info).to.be.an('object');
         expect(info.message).to.equal('Hello');
       });
   
@@ -188,12 +188,12 @@ describe('OAuthStrategy subclass', function() {
       });
 
       it('should supply user', function() {
-        expect(user).to.be.an.object;
+        expect(user).to.be.an('object');
         expect(user.id).to.equal('1234');
       });
 
       it('should supply info', function() {
-        expect(info).to.be.an.object;
+        expect(info).to.be.an('object');
         expect(info.message).to.equal('Hello');
       });
   
@@ -254,13 +254,13 @@ describe('OAuthStrategy subclass', function() {
       });
 
       it('should supply user', function() {
-        expect(user).to.be.an.object;
+        expect(user).to.be.an('object');
         expect(user.id).to.equal('1234');
         expect(user.username).to.equal('jaredhanson');
       });
 
       it('should supply info', function() {
-        expect(info).to.be.an.object;
+        expect(info).to.be.an('object');
         expect(info.message).to.equal('Hello');
       });
   
@@ -321,12 +321,12 @@ describe('OAuthStrategy subclass', function() {
       });
 
       it('should supply user', function() {
-        expect(user).to.be.an.object;
+        expect(user).to.be.an('object');
         expect(user.id).to.equal('1234');
       });
 
       it('should supply info', function() {
-        expect(info).to.be.an.object;
+        expect(info).to.be.an('object');
         expect(info.message).to.equal('Hello');
       });
   
@@ -390,13 +390,13 @@ describe('OAuthStrategy subclass', function() {
       });
 
       it('should supply user', function() {
-        expect(user).to.be.an.object;
+        expect(user).to.be.an('object');
         expect(user.id).to.equal('1234');
         expect(user.username).to.equal('jaredhanson');
       });
 
       it('should supply info', function() {
-        expect(info).to.be.an.object;
+        expect(info).to.be.an('object');
         expect(info.message).to.equal('Hello');
       });
   
@@ -460,12 +460,12 @@ describe('OAuthStrategy subclass', function() {
       });
 
       it('should supply user', function() {
-        expect(user).to.be.an.object;
+        expect(user).to.be.an('object');
         expect(user.id).to.equal('1234');
       });
 
       it('should supply info', function() {
-        expect(info).to.be.an.object;
+        expect(info).to.be.an('object');
         expect(info.message).to.equal('Hello');
       });
   
